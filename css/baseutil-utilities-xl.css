@@ -607,6 +607,19 @@
   fill: var(--white);
 }
 
+/* Filter */
+.filter-blur-xl {
+  filter: blur(var(--spacer));
+}
+
+.filter-grayscale-xl {
+  filter: grayscale(100%);
+}
+
+.filter-sepia-xl {
+  filter: sepia(100%);
+}
+
 /* Flex */
 .flex-column-xl {
   flex-direction: column;
@@ -1268,6 +1281,10 @@
 }
 
 /* Opacity */
+.opacity-0-xl {
+  opacity: 0;
+}
+
 .opacity-10-xl {
   opacity: 0.1;
 }
@@ -1485,6 +1502,38 @@
   text-decoration: underline;
 }
 
+/* Transform */
+.transform-flip-x-xl {
+  transform: scaleX(-1);
+}
+
+.transform-flip-y-xl {
+  transform: scaleY(-1);
+}
+
+.transform-rotate-90-xl {
+  transform: rotateZ(90deg);
+}
+
+.transform-rotate-180-xl {
+  transform: rotateZ(180deg);
+}
+
+.transform-rotate-270-xl {
+  transform: rotateZ(270deg);
+}
+
+/* Transition */
+.transition-fade-in-xl {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.transition-fade-out-xl {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
 /* White space */
 .text-nowrap-xl {
   white-space: nowrap;
@@ -1545,4 +1594,25 @@
 
 .w-auto-xl {
   width: auto;
+}
+
+/* Z-index */
+.z-index-1-xl {
+  z-index: 1;
+}
+
+.z-index-2-xl {
+  z-index: 2;
+}
+
+.z-index-3-xl {
+  z-index: 3;
+}
+
+.z-index-4-xl {
+  z-index: 4;
+}
+
+.z-index-5-xl {
+  z-index: 5;
 }
