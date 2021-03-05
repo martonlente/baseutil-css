@@ -359,7 +359,7 @@ body {
 /* Type */
 a {
   color: var(--secondary);
-  transition: opacity 0.3s;
+  transition: opacity var(--transition-duration);
 }
 
 a:hover {

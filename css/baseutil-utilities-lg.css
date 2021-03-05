@@ -1734,12 +1734,12 @@
 /* Transition */
 .transition-fade-in-lg {
   opacity: 1;
-  transition: opacity 0.3s;
+  transition: opacity var(--transition-duration);
 }
 
 .transition-fade-out-lg {
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity var(--transition-duration);
 }
 
 /* White space */
