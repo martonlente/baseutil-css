@@ -863,6 +863,28 @@
   line-height: var(--line-height-sm);
 }
 
+/* List style position */
+.list-style-inside-xl {
+  list-style-position: inside;
+}
+
+.list-style-outside-xl {
+  list-style-position: outside;
+}
+
+/* List style type */
+.list-style-decimal-xl {
+  list-style-type: decimal;
+}
+
+.list-style-disc-xl {
+  list-style-type: disc;
+}
+
+.list-style-none-xl {
+  list-style-type: none;
+}
+
 /* Margin and padding */
 .mb-0-xl {
   margin-bottom: 0;

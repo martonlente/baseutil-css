@@ -863,6 +863,28 @@
   line-height: var(--line-height-sm);
 }
 
+/* List style position */
+.list-style-inside-md {
+  list-style-position: inside;
+}
+
+.list-style-outside-md {
+  list-style-position: outside;
+}
+
+/* List style type */
+.list-style-decimal-md {
+  list-style-type: decimal;
+}
+
+.list-style-disc-md {
+  list-style-type: disc;
+}
+
+.list-style-none-md {
+  list-style-type: none;
+}
+
 /* Margin and padding */
 .mb-0-md {
   margin-bottom: 0;
