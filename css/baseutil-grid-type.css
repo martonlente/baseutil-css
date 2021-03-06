@@ -57,6 +57,14 @@ body {
   padding-right: var(--grid-gutter-width);
 }
 
+[class^='col-'] [class^='col-']:first-child {
+  padding-left: 0;
+}
+
+[class^='col-'] [class^='col-']:last-child {
+  padding-right: 0;
+}
+
 .col-1 {
   width: calc(100% / var(--grid-columns));
 }
