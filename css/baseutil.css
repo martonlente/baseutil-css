@@ -7,8 +7,8 @@
 @import url(baseutil-variables.css);
 @import url(baseutil-grid-type.css);
 @import url(baseutil-utilities.css);
-@import url(baseutil-utilities-xl.css) (max-width: 1399px);
-@import url(baseutil-utilities-lg.css) (max-width: 1199px);
-@import url(baseutil-utilities-md.css) (max-width: 991px);
-@import url(baseutil-utilities-sm.css) (max-width: 767px);
-@import url(baseutil-utilities-xs.css) (max-width: 575px);
+@import url(baseutil-utilities-xl.css);
+@import url(baseutil-utilities-lg.css);
+@import url(baseutil-utilities-md.css);
+@import url(baseutil-utilities-sm.css);
+@import url(baseutil-utilities-xs.css);
