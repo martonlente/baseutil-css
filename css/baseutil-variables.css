@@ -5,19 +5,19 @@
  * Licensed under MIT (https://github.com/martonlente/baseutil-css/blob/main/LICENSE)
  */
 :root {
-  --black: #000;
-  --grey-10: #e5e5e5;
-  --grey-20: #ccc;
-  --grey-30: #b2b2b2;
-  --grey-40: #999;
-  --grey-50: #808080;
-  --grey-60: #666;
-  --grey-70: #4d4d4d;
-  --grey-80: #333;
-  --grey-90: #1a1a1a;
+  --black: hsl(0, 0%, 0%);
+  --grey-10: hsl(0, 0%, 10%);
+  --grey-20: hsl(0, 0%, 20%);
+  --grey-30: hsl(0, 0%, 30%);
+  --grey-40: hsl(0, 0%, 40%);
+  --grey-50: hsl(0, 0%, 50%);
+  --grey-60: hsl(0, 0%, 60%);
+  --grey-70: hsl(0, 0%, 70%);
+  --grey-80: hsl(0, 0%, 80%);
+  --grey-90: hsl(0, 0%, 90%);
   --primary: #0e0033;
   --secondary: #3900e6;
-  --white: #fff; }
+  --white: hsl(0, 0%, 100%); }
 
 /*Grid
  */
