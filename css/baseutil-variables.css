@@ -1,9 +1,9 @@
+@charset "UTF-8";
 /*!
  * Baseutil CSS v0.1.0 (https://martonlente.com/)
  * Copyright 2021 Márton Lente
  * Licensed under MIT (https://github.com/martonlente/baseutil-css/blob/main/LICENSE)
  */
-
 :root {
   --black: #000;
   --grey-10: #e5e5e5;
@@ -17,29 +17,26 @@
   --grey-90: #1a1a1a;
   --primary: #0e0033;
   --secondary: #3900e6;
-  --white: #fff;
-}
+  --white: #fff; }
 
-/* Grid */
+/*Grid
+ */
 :root {
   --container-max-width: 132.0rem;
   --grid-columns: 12;
   --grid-gutter-width: 1.5rem;
-  --spacer: 1.0rem;
-}
+  --spacer: 1.0rem; }
 
 @media (max-width: 1399px) {
   :root {
-    --container-max-width: 80%;
-  }
-}
+    --container-max-width: 80%; } }
 
-/* Type */
+/*Type
+ */
 :root {
   --font-monospace: monospace;
   --font-sans-serif: sans-serif;
   --font-serif: serif;
-
   --fs-1: 3.2rem;
   --fs-2: 2.8rem;
   --fs-3: 2.4rem;
@@ -47,14 +44,10 @@
   --fs-5: 1.8rem;
   --fs-6: 1.6rem;
   --fs-7: 1.4rem;
-
   --fw-bold: 700;
   --fw-light: 300;
   --fw-normal: 400;
-
   --lh-base: 1.6;
   --lh-sm: 1.3;
   --lh-lg: 2.1;
-
-  --transition-duration: var(--transition-duration);
-}
+  --transition-duration: var(--transition-duration); }
