@@ -18,6 +18,14 @@ body {
   font-weight: var(--fw-normal);
   line-height: var(--lh-base); }
 
+::-moz-selection {
+  background-color: var(--secondary);
+  color: var(--white); }
+
+::selection {
+  background-color: var(--secondary);
+  color: var(--white); }
+
 /*Grid
  */
 .container,
