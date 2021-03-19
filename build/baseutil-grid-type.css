@@ -63,10 +63,10 @@ body {
   padding-left: var(--grid-gutter-width);
   padding-right: var(--grid-gutter-width); }
 
-[class^='col-'] [class^='col-']:first-child {
+[class*='col-'] [class*='col-']:first-child {
   padding-left: 0; }
 
-[class^='col-'] [class^='col-']:last-child {
+[class*='col-'] [class*='col-']:last-child {
   padding-right: 0; }
 
 .col-1 {
@@ -186,7 +186,7 @@ body {
     width: calc(100% / var(--grid-columns) * 16); } }
 
 @media (max-width: 991px) {
-  [class^='col-'] {
+  [class*='col-'] {
     width: 100%; }
   .col-1-md {
     width: calc(100% / var(--grid-columns)); }

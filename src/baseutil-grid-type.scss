@@ -64,11 +64,11 @@ body {
   padding-right: var(--grid-gutter-width);
 }
 
-[class^='col-'] [class^='col-']:first-child {
+[class*='col-'] [class*='col-']:first-child {
   padding-left: 0;
 }
 
-[class^='col-'] [class^='col-']:last-child {
+[class*='col-'] [class*='col-']:last-child {
   padding-right: 0;
 }
 
@@ -269,7 +269,7 @@ body {
 }
 
 @media (max-width: 991px) {
-  [class^='col-'] {
+  [class*='col-'] {
     width: 100%;
   }
 
