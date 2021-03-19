@@ -6,7 +6,7 @@
  */
 @media (max-width: 1399px) {
   /*Align items
-  */
+   */
   .align-items-baseline-xl {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
@@ -28,11 +28,11 @@
         -ms-flex-align: stretch;
             align-items: stretch; }
   /*Background attachment
-  */
+   */
   .bg-fixed-xl {
     background-attachment: fixed; }
   /*Background colour
-  */
+   */
   .bg-black-xl {
     background-color: var(--black); }
   .bg-grey-10-xl {
@@ -75,12 +75,14 @@
     background-color: var(--primary); }
   .bg-secondary-xl {
     background-color: var(--secondary); }
+  .bg-tertiary-xl {
+    background-color: var(--tertiary); }
   .bg-transparent-xl {
     background-color: transparent; }
   .bg-white-xl {
     background-color: var(--white); }
   /*Background position
-  */
+   */
   .bg-bottom-center-xl {
     background-position: bottom; }
   .bg-bottom-end-xl {
@@ -100,7 +102,7 @@
   .bg-top-start-xl {
     background-position: left top; }
   /*Background repeat
-  */
+   */
   .bg-no-repeat-xl {
     background-repeat: no-repeat; }
   .bg-repeat-x-xl {
@@ -108,13 +110,13 @@
   .bg-repeat-y-xl {
     background-repeat: repeat-y; }
   /*Background size
-  */
+   */
   .bg-contain-xl {
     background-size: contain; }
   .bg-cover-xl {
     background-size: cover; }
   /*Border
-  */
+   */
   .border-xl {
     border: 0.1rem solid var(--primary); }
   .border-0-xl {
@@ -136,7 +138,7 @@
   .border-top-0-xl {
     border-top: 0; }
   /*Border colour
-  */
+   */
   .border-black-xl {
     border-color: var(--black); }
   .border-grey-10-xl {
@@ -179,10 +181,12 @@
     border-color: var(--primary); }
   .border-secondary-xl {
     border-color: var(--secondary); }
+  .border-tertiary-xl {
+    border-color: var(--tertiary); }
   .border-white-xl {
     border-color: var(--white); }
   /*Border radius
-  */
+   */
   .rounded-bottom-end-xl {
     border-bottom-right-radius: var(--spacer); }
   .rounded-bottom-start-xl {
@@ -194,7 +198,7 @@
   .rounded-top-start-xl {
     border-top-left-radius: var(--spacer); }
   /*Border width
-  */
+   */
   .border-2-xl {
     border-width: 0.2rem; }
   .border-3-xl {
@@ -204,7 +208,7 @@
   .border-5-xl {
     border-width: 0.5rem; }
   /*Bottom, Left, Right, Top
-  */
+   */
   .bottom-0-xl {
     bottom: 0; }
   .bottom-1-xl {
@@ -304,12 +308,12 @@
   .top-100-xl {
     top: 100%; }
   /*Box shadow
-  */
+   */
   .shadow-xl {
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
   /*Colour
-  */
+   */
   .black-xl {
     color: var(--black); }
   .grey-10-xl {
@@ -352,10 +356,12 @@
     color: var(--primary); }
   .secondary-xl {
     color: var(--secondary); }
+  .tertiary-xl {
+    color: var(--tertiary); }
   .white-xl {
     color: var(--white); }
   /*Display
-  */
+   */
   .d-block-xl {
     display: block; }
   .d-flex-xl {
@@ -369,7 +375,7 @@
   .d-none-xl {
     display: none; }
   /*Fill
-  */
+   */
   .fill-black-xl {
     fill: var(--black); }
   .fill-grey-10-xl {
@@ -412,10 +418,12 @@
     fill: var(--primary); }
   .fill-secondary-xl {
     fill: var(--secondary); }
+  .fill-tertiary-xl {
+    fill: var(--tertiary); }
   .fill-white-xl {
     fill: var(--white); }
   /*Filter
-  */
+   */
   .filter-blur-xl {
     -webkit-filter: blur(var(--spacer));
             filter: blur(var(--spacer)); }
@@ -426,7 +434,7 @@
     -webkit-filter: sepia(100%);
             filter: sepia(100%); }
   /*Flex
-  */
+   */
   .flex-column-xl {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -454,7 +462,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
   /*Font family
-  */
+   */
   .font-monospace-xl {
     font-family: var(--font-monospace); }
   .font-sans-serif-xl {
@@ -462,7 +470,7 @@
   .font-serif-xl {
     font-family: var(--font-serif); }
   /*Font size
-  */
+   */
   .fs-1-xl {
     font-size: var(--fs-1); }
   .fs-2-xl {
@@ -478,7 +486,7 @@
   .fs-7-xl {
     font-size: var(--fs-7); }
   /*Font weight
-  */
+   */
   .fw-light-xl {
     font-weight: var(--fw-light); }
   .fw-normal-xl {
@@ -486,7 +494,7 @@
   .fw-bold-xl {
     font-weight: var(--fw-bold); }
   /*Height
-  */
+   */
   .h-0-5-xl {
     height: calc(var(--spacer) * 0.5); }
   .h-1-xl {
@@ -548,7 +556,7 @@
   .vh-100-xl {
     height: 100vw; }
   /*Justify content
-  */
+   */
   .justify-content-around-xl {
     -ms-flex-pack: distribute;
         justify-content: space-around; }
@@ -573,7 +581,7 @@
         -ms-flex-pack: start;
             justify-content: flex-start; }
   /*Line height
-  */
+   */
   .lh-1-xl {
     line-height: 1; }
   .lh-base-xl {
@@ -583,13 +591,13 @@
   .lh-sm-xl {
     line-height: var(--line-height-sm); }
   /*List style position
-  */
+   */
   .list-style-inside-xl {
     list-style-position: inside; }
   .list-style-outside-xl {
     list-style-position: outside; }
   /*List style type
-  */
+   */
   .list-style-decimal-xl {
     list-style-type: decimal; }
   .list-style-disc-xl {
@@ -597,7 +605,7 @@
   .list-style-none-xl {
     list-style-type: none; }
   /*Margin and padding
-  */
+   */
   .mb-0-xl {
     margin-bottom: 0; }
   .mb-0-5-xl {
@@ -911,7 +919,7 @@
   .pt-9-xl {
     padding-top: calc(var(--spacer) * 9); }
   /*Opacity
-  */
+   */
   .opacity-0-xl {
     opacity: 0; }
   .opacity-10-xl {
@@ -933,7 +941,7 @@
   .opacity-90-xl {
     opacity: 0.9; }
   /*Order
-  */
+   */
   .order-first-xl {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
@@ -959,7 +967,7 @@
         -ms-flex-order: 5;
             order: 5; }
   /*Overflow
-  */
+   */
   .overflow-x-auto-xl {
     overflow-x: auto; }
   .overflow-x-hidden-xl {
@@ -973,7 +981,7 @@
   .overflow-y-scroll-xl {
     overflow-y: scroll; }
   /*Position
-  */
+   */
   .position-absolute-xl {
     position: absolute; }
   .position-fixed-xl {
@@ -986,7 +994,7 @@
     position: -webkit-sticky;
     position: sticky; }
   /*Ratio
-  */
+   */
   .ratio-1x1-xl {
     padding-bottom: 100%; }
   .ratio-4x3-xl {
@@ -996,7 +1004,7 @@
   .ratio-21x9-xl {
     padding-bottom: calc(9 / 21 * 100%); }
   /*Stroke
-  */
+   */
   .stroke-black-xl {
     stroke: var(--black); }
   .stroke-grey-10-xl {
@@ -1039,10 +1047,12 @@
     stroke: var(--primary); }
   .stroke-secondary-xl {
     stroke: var(--secondary); }
+  .stroke-tertiary-xl {
+    stroke: var(--tertiary); }
   .stroke-white-xl {
     stroke: var(--white); }
   /*Text align
-  */
+   */
   .text-start-xl {
     text-align: left; }
   .text-end-xl {
@@ -1050,7 +1060,7 @@
   .text-center-xl {
     text-align: center; }
   /*Text transform
-  */
+   */
   .text-capitalize-xl {
     text-transform: capitalize; }
   .text-lowercase-xl {
@@ -1058,7 +1068,7 @@
   .text-uppercase-xl {
     text-transform: uppercase; }
   /*Text decoration
-  */
+   */
   .text-decoration-line-through-xl {
     text-decoration: line-through; }
   .text-decoration-none-xl {
@@ -1066,7 +1076,7 @@
   .text-decoration-underline-xl {
     text-decoration: underline; }
   /*Transform
-  */
+   */
   .transform-flip-x-xl {
     -webkit-transform: scaleX(-1);
         -ms-transform: scaleX(-1);
@@ -1088,7 +1098,7 @@
         -ms-transform: rotate(270deg);
             transform: rotateZ(270deg); }
   /*Transition
-  */
+   */
   .transition-fade-in-xl {
     opacity: 1;
     -webkit-transition: opacity var(--transition-duration);
@@ -1099,12 +1109,18 @@
     -webkit-transition: opacity var(--transition-duration);
     -o-transition: opacity var(--transition-duration);
     transition: opacity var(--transition-duration); }
+  /*Visibility
+   */
+  .invisible-xl {
+    visibility: hidden; }
+  .visible-xl {
+    visibility: visible; }
   /*White space
-  */
+   */
   .text-nowrap-xl {
     white-space: nowrap; }
   /*Width
-  */
+   */
   .mw-100-xl {
     max-width: 100%; }
   .vw-100-xl {
@@ -1165,8 +1181,14 @@
     width: 100%; }
   .w-auto-xl {
     width: auto; }
+  /*Writing mode
+   */
+  .text-vertical-rl-xl {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl; }
   /*Z-index
-  */
+   */
   .z-index-1-xl {
     z-index: 1; }
   .z-index-2-xl {

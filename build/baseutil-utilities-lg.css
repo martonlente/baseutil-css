@@ -6,7 +6,7 @@
  */
 @media (max-width: 1199px) {
   /*Align items
-  */
+   */
   .align-items-baseline-lg {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
@@ -28,11 +28,11 @@
         -ms-flex-align: stretch;
             align-items: stretch; }
   /*Background attachment
-  */
+   */
   .bg-fixed-lg {
     background-attachment: fixed; }
   /*Background colour
-  */
+   */
   .bg-black-lg {
     background-color: var(--black); }
   .bg-grey-10-lg {
@@ -75,12 +75,14 @@
     background-color: var(--primary); }
   .bg-secondary-lg {
     background-color: var(--secondary); }
+  .bg-tertiary-lg {
+    background-color: var(--tertiary); }
   .bg-transparent-lg {
     background-color: transparent; }
   .bg-white-lg {
     background-color: var(--white); }
   /*Background position
-  */
+   */
   .bg-bottom-center-lg {
     background-position: bottom; }
   .bg-bottom-end-lg {
@@ -100,7 +102,7 @@
   .bg-top-start-lg {
     background-position: left top; }
   /*Background repeat
-  */
+   */
   .bg-no-repeat-lg {
     background-repeat: no-repeat; }
   .bg-repeat-x-lg {
@@ -108,13 +110,13 @@
   .bg-repeat-y-lg {
     background-repeat: repeat-y; }
   /*Background size
-  */
+   */
   .bg-contain-lg {
     background-size: contain; }
   .bg-cover-lg {
     background-size: cover; }
   /*Border
-  */
+   */
   .border-lg {
     border: 0.1rem solid var(--primary); }
   .border-0-lg {
@@ -136,7 +138,7 @@
   .border-top-0-lg {
     border-top: 0; }
   /*Border colour
-  */
+   */
   .border-black-lg {
     border-color: var(--black); }
   .border-grey-10-lg {
@@ -179,10 +181,12 @@
     border-color: var(--primary); }
   .border-secondary-lg {
     border-color: var(--secondary); }
+  .border-tertiary-lg {
+    border-color: var(--tertiary); }
   .border-white-lg {
     border-color: var(--white); }
   /*Border radius
-  */
+   */
   .rounded-bottom-end-lg {
     border-bottom-right-radius: var(--spacer); }
   .rounded-bottom-start-lg {
@@ -194,7 +198,7 @@
   .rounded-top-start-lg {
     border-top-left-radius: var(--spacer); }
   /*Border width
-  */
+   */
   .border-2-lg {
     border-width: 0.2rem; }
   .border-3-lg {
@@ -204,7 +208,7 @@
   .border-5-lg {
     border-width: 0.5rem; }
   /*Bottom, Left, Right, Top
-  */
+   */
   .bottom-0-lg {
     bottom: 0; }
   .bottom-1-lg {
@@ -304,12 +308,12 @@
   .top-100-lg {
     top: 100%; }
   /*Box shadow
-  */
+   */
   .shadow-lg {
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
   /*Colour
-  */
+   */
   .black-lg {
     color: var(--black); }
   .grey-10-lg {
@@ -352,10 +356,12 @@
     color: var(--primary); }
   .secondary-lg {
     color: var(--secondary); }
+  .tertiary-lg {
+    color: var(--tertiary); }
   .white-lg {
     color: var(--white); }
   /*Display
-  */
+   */
   .d-block-lg {
     display: block; }
   .d-flex-lg {
@@ -369,7 +375,7 @@
   .d-none-lg {
     display: none; }
   /*Fill
-  */
+   */
   .fill-black-lg {
     fill: var(--black); }
   .fill-grey-10-lg {
@@ -412,10 +418,12 @@
     fill: var(--primary); }
   .fill-secondary-lg {
     fill: var(--secondary); }
+  .fill-tertiary-lg {
+    fill: var(--tertiary); }
   .fill-white-lg {
     fill: var(--white); }
   /*Filter
-  */
+   */
   .filter-blur-lg {
     -webkit-filter: blur(var(--spacer));
             filter: blur(var(--spacer)); }
@@ -426,7 +434,7 @@
     -webkit-filter: sepia(100%);
             filter: sepia(100%); }
   /*Flex
-  */
+   */
   .flex-column-lg {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -454,7 +462,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
   /*Font family
-  */
+   */
   .font-monospace-lg {
     font-family: var(--font-monospace); }
   .font-sans-serif-lg {
@@ -462,7 +470,7 @@
   .font-serif-lg {
     font-family: var(--font-serif); }
   /*Font size
-  */
+   */
   .fs-1-lg {
     font-size: var(--fs-1); }
   .fs-2-lg {
@@ -478,7 +486,7 @@
   .fs-7-lg {
     font-size: var(--fs-7); }
   /*Font weight
-  */
+   */
   .fw-light-lg {
     font-weight: var(--fw-light); }
   .fw-normal-lg {
@@ -486,7 +494,7 @@
   .fw-bold-lg {
     font-weight: var(--fw-bold); }
   /*Height
-  */
+   */
   .h-0-5-lg {
     height: calc(var(--spacer) * 0.5); }
   .h-1-lg {
@@ -548,7 +556,7 @@
   .vh-100-lg {
     height: 100vw; }
   /*Justify content
-  */
+   */
   .justify-content-around-lg {
     -ms-flex-pack: distribute;
         justify-content: space-around; }
@@ -573,7 +581,7 @@
         -ms-flex-pack: start;
             justify-content: flex-start; }
   /*Line height
-  */
+   */
   .lh-1-lg {
     line-height: 1; }
   .lh-base-lg {
@@ -583,13 +591,13 @@
   .lh-sm-lg {
     line-height: var(--line-height-sm); }
   /*List style position
-  */
+   */
   .list-style-inside-lg {
     list-style-position: inside; }
   .list-style-outside-lg {
     list-style-position: outside; }
   /*List style type
-  */
+   */
   .list-style-decimal-lg {
     list-style-type: decimal; }
   .list-style-disc-lg {
@@ -597,7 +605,7 @@
   .list-style-none-lg {
     list-style-type: none; }
   /*Margin and padding
-  */
+   */
   .mb-0-lg {
     margin-bottom: 0; }
   .mb-0-5-lg {
@@ -911,7 +919,7 @@
   .pt-9-lg {
     padding-top: calc(var(--spacer) * 9); }
   /*Opacity
-  */
+   */
   .opacity-0-lg {
     opacity: 0; }
   .opacity-10-lg {
@@ -933,7 +941,7 @@
   .opacity-90-lg {
     opacity: 0.9; }
   /*Order
-  */
+   */
   .order-first-lg {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
@@ -959,7 +967,7 @@
         -ms-flex-order: 5;
             order: 5; }
   /*Overflow
-  */
+   */
   .overflow-x-auto-lg {
     overflow-x: auto; }
   .overflow-x-hidden-lg {
@@ -973,7 +981,7 @@
   .overflow-y-scroll-lg {
     overflow-y: scroll; }
   /*Position
-  */
+   */
   .position-absolute-lg {
     position: absolute; }
   .position-fixed-lg {
@@ -986,7 +994,7 @@
     position: -webkit-sticky;
     position: sticky; }
   /*Ratio
-  */
+   */
   .ratio-1x1-lg {
     padding-bottom: 100%; }
   .ratio-4x3-lg {
@@ -996,7 +1004,7 @@
   .ratio-21x9-lg {
     padding-bottom: calc(9 / 21 * 100%); }
   /*Stroke
-  */
+   */
   .stroke-black-lg {
     stroke: var(--black); }
   .stroke-grey-10-lg {
@@ -1039,10 +1047,12 @@
     stroke: var(--primary); }
   .stroke-secondary-lg {
     stroke: var(--secondary); }
+  .stroke-tertiary-lg {
+    stroke: var(--tertiary); }
   .stroke-white-lg {
     stroke: var(--white); }
   /*Text align
-  */
+   */
   .text-start-lg {
     text-align: left; }
   .text-end-lg {
@@ -1050,7 +1060,7 @@
   .text-center-lg {
     text-align: center; }
   /*Text transform
-  */
+   */
   .text-capitalize-lg {
     text-transform: capitalize; }
   .text-lowercase-lg {
@@ -1058,7 +1068,7 @@
   .text-uppercase-lg {
     text-transform: uppercase; }
   /*Text decoration
-  */
+   */
   .text-decoration-line-through-lg {
     text-decoration: line-through; }
   .text-decoration-none-lg {
@@ -1066,7 +1076,7 @@
   .text-decoration-underline-lg {
     text-decoration: underline; }
   /*Transform
-  */
+   */
   .transform-flip-x-lg {
     -webkit-transform: scaleX(-1);
         -ms-transform: scaleX(-1);
@@ -1088,7 +1098,7 @@
         -ms-transform: rotate(270deg);
             transform: rotateZ(270deg); }
   /*Transition
-  */
+   */
   .transition-fade-in-lg {
     opacity: 1;
     -webkit-transition: opacity var(--transition-duration);
@@ -1099,12 +1109,18 @@
     -webkit-transition: opacity var(--transition-duration);
     -o-transition: opacity var(--transition-duration);
     transition: opacity var(--transition-duration); }
+  /*Visibility
+   */
+  .invisible-lg {
+    visibility: hidden; }
+  .visible-lg {
+    visibility: visible; }
   /*White space
-  */
+   */
   .text-nowrap-lg {
     white-space: nowrap; }
   /*Width
-  */
+   */
   .mw-100-lg {
     max-width: 100%; }
   .vw-100-lg {
@@ -1165,8 +1181,14 @@
     width: 100%; }
   .w-auto-lg {
     width: auto; }
+  /*Writing mode
+   */
+  .text-vertical-rl-lg {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl; }
   /*Z-index
-  */
+   */
   .z-index-1-lg {
     z-index: 1; }
   .z-index-2-lg {

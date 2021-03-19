@@ -101,6 +101,9 @@
 .bg-secondary {
   background-color: var(--secondary); }
 
+.bg-tertiary {
+  background-color: var(--tertiary); }
+
 .bg-transparent {
   background-color: transparent; }
 
@@ -251,6 +254,9 @@
 
 .border-secondary {
   border-color: var(--secondary); }
+
+.border-tertiary {
+  border-color: var(--tertiary); }
 
 .border-white {
   border-color: var(--white); }
@@ -506,6 +512,9 @@
 .secondary {
   color: var(--secondary); }
 
+.tertiary {
+  color: var(--tertiary); }
+
 .white {
   color: var(--white); }
 
@@ -592,6 +601,9 @@
 
 .fill-secondary {
   fill: var(--secondary); }
+
+.fill-tertiary {
+  fill: var(--tertiary); }
 
 .fill-white {
   fill: var(--white); }
@@ -1496,6 +1508,9 @@
 .stroke-secondary {
   stroke: var(--secondary); }
 
+.stroke-tertiary {
+  stroke: var(--tertiary); }
+
 .stroke-white {
   stroke: var(--white); }
 
@@ -1572,6 +1587,14 @@
   -webkit-transition: opacity var(--transition-duration);
   -o-transition: opacity var(--transition-duration);
   transition: opacity var(--transition-duration); }
+
+/*Visibility
+ */
+.invisible {
+  visibility: hidden; }
+
+.visible {
+  visibility: visible; }
 
 /*White space
  */
@@ -1669,6 +1692,13 @@
 
 .w-auto {
   width: auto; }
+
+/*Writing mode
+ */
+.text-vertical-rl {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl; }
 
 /*Z-index
  */

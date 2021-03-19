@@ -118,6 +118,10 @@
   background-color: var(--secondary);
 }
 
+.bg-tertiary {
+  background-color: var(--tertiary);
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -314,6 +318,10 @@
 
 .border-secondary {
   border-color: var(--secondary);
+}
+
+.border-tertiary {
+  border-color: var(--tertiary);
 }
 
 .border-white {
@@ -650,6 +658,10 @@
   color: var(--secondary);
 }
 
+.tertiary {
+  color: var(--tertiary);
+}
+
 .white {
   color: var(--white);
 }
@@ -760,6 +772,10 @@
 
 .fill-secondary {
   fill: var(--secondary);
+}
+
+.fill-tertiary {
+  fill: var(--tertiary);
 }
 
 .fill-white {
@@ -1900,6 +1916,10 @@
   stroke: var(--secondary);
 }
 
+.stroke-tertiary {
+  stroke: var(--tertiary);
+}
+
 .stroke-white {
   stroke: var(--white);
 }
@@ -1978,6 +1998,16 @@
 .transition-fade-out {
   opacity: 0;
   transition: opacity var(--transition-duration);
+}
+
+/*Visibility
+ */
+.invisible {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
 }
 
 /*White space
@@ -2106,6 +2136,12 @@
 
 .w-auto {
   width: auto;
+}
+
+/*Writing mode
+ */
+.text-vertical-rl {
+  writing-mode: vertical-rl;
 }
 
 /*Z-index

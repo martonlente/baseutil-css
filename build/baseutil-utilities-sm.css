@@ -6,7 +6,7 @@
  */
 @media (max-width: 767px) {
   /*Align items
-  */
+   */
   .align-items-baseline-sm {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
@@ -28,11 +28,11 @@
         -ms-flex-align: stretch;
             align-items: stretch; }
   /*Background attachment
-  */
+   */
   .bg-fixed-sm {
     background-attachment: fixed; }
   /*Background colour
-  */
+   */
   .bg-black-sm {
     background-color: var(--black); }
   .bg-grey-10-sm {
@@ -75,12 +75,14 @@
     background-color: var(--primary); }
   .bg-secondary-sm {
     background-color: var(--secondary); }
+  .bg-tertiary-sm {
+    background-color: var(--tertiary); }
   .bg-transparent-sm {
     background-color: transparent; }
   .bg-white-sm {
     background-color: var(--white); }
   /*Background position
-  */
+   */
   .bg-bottom-center-sm {
     background-position: bottom; }
   .bg-bottom-end-sm {
@@ -100,7 +102,7 @@
   .bg-top-start-sm {
     background-position: left top; }
   /*Background repeat
-  */
+   */
   .bg-no-repeat-sm {
     background-repeat: no-repeat; }
   .bg-repeat-x-sm {
@@ -108,13 +110,13 @@
   .bg-repeat-y-sm {
     background-repeat: repeat-y; }
   /*Background size
-  */
+   */
   .bg-contain-sm {
     background-size: contain; }
   .bg-cover-sm {
     background-size: cover; }
   /*Border
-  */
+   */
   .border-sm {
     border: 0.1rem solid var(--primary); }
   .border-0-sm {
@@ -136,7 +138,7 @@
   .border-top-0-sm {
     border-top: 0; }
   /*Border colour
-  */
+   */
   .border-black-sm {
     border-color: var(--black); }
   .border-grey-10-sm {
@@ -179,10 +181,12 @@
     border-color: var(--primary); }
   .border-secondary-sm {
     border-color: var(--secondary); }
+  .border-tertiary-sm {
+    border-color: var(--tertiary); }
   .border-white-sm {
     border-color: var(--white); }
   /*Border radius
-  */
+   */
   .rounded-bottom-end-sm {
     border-bottom-right-radius: var(--spacer); }
   .rounded-bottom-start-sm {
@@ -194,7 +198,7 @@
   .rounded-top-start-sm {
     border-top-left-radius: var(--spacer); }
   /*Border width
-  */
+   */
   .border-2-sm {
     border-width: 0.2rem; }
   .border-3-sm {
@@ -204,7 +208,7 @@
   .border-5-sm {
     border-width: 0.5rem; }
   /*Bottom, Left, Right, Top
-  */
+   */
   .bottom-0-sm {
     bottom: 0; }
   .bottom-1-sm {
@@ -304,12 +308,12 @@
   .top-100-sm {
     top: 100%; }
   /*Box shadow
-  */
+   */
   .shadow-sm {
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
   /*Colour
-  */
+   */
   .black-sm {
     color: var(--black); }
   .grey-10-sm {
@@ -352,10 +356,12 @@
     color: var(--primary); }
   .secondary-sm {
     color: var(--secondary); }
+  .tertiary-sm {
+    color: var(--tertiary); }
   .white-sm {
     color: var(--white); }
   /*Display
-  */
+   */
   .d-block-sm {
     display: block; }
   .d-flex-sm {
@@ -369,7 +375,7 @@
   .d-none-sm {
     display: none; }
   /*Fill
-  */
+   */
   .fill-black-sm {
     fill: var(--black); }
   .fill-grey-10-sm {
@@ -412,10 +418,12 @@
     fill: var(--primary); }
   .fill-secondary-sm {
     fill: var(--secondary); }
+  .fill-tertiary-sm {
+    fill: var(--tertiary); }
   .fill-white-sm {
     fill: var(--white); }
   /*Filter
-  */
+   */
   .filter-blur-sm {
     -webkit-filter: blur(var(--spacer));
             filter: blur(var(--spacer)); }
@@ -426,7 +434,7 @@
     -webkit-filter: sepia(100%);
             filter: sepia(100%); }
   /*Flex
-  */
+   */
   .flex-column-sm {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -454,7 +462,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
   /*Font family
-  */
+   */
   .font-monospace-sm {
     font-family: var(--font-monospace); }
   .font-sans-serif-sm {
@@ -462,7 +470,7 @@
   .font-serif-sm {
     font-family: var(--font-serif); }
   /*Font size
-  */
+   */
   .fs-1-sm {
     font-size: var(--fs-1); }
   .fs-2-sm {
@@ -478,7 +486,7 @@
   .fs-7-sm {
     font-size: var(--fs-7); }
   /*Font weight
-  */
+   */
   .fw-light-sm {
     font-weight: var(--fw-light); }
   .fw-normal-sm {
@@ -486,7 +494,7 @@
   .fw-bold-sm {
     font-weight: var(--fw-bold); }
   /*Height
-  */
+   */
   .h-0-5-sm {
     height: calc(var(--spacer) * 0.5); }
   .h-1-sm {
@@ -548,7 +556,7 @@
   .vh-100-sm {
     height: 100vw; }
   /*Justify content
-  */
+   */
   .justify-content-around-sm {
     -ms-flex-pack: distribute;
         justify-content: space-around; }
@@ -573,7 +581,7 @@
         -ms-flex-pack: start;
             justify-content: flex-start; }
   /*Line height
-  */
+   */
   .lh-1-sm {
     line-height: 1; }
   .lh-base-sm {
@@ -583,13 +591,13 @@
   .lh-sm-sm {
     line-height: var(--line-height-sm); }
   /*List style position
-  */
+   */
   .list-style-inside-sm {
     list-style-position: inside; }
   .list-style-outside-sm {
     list-style-position: outside; }
   /*List style type
-  */
+   */
   .list-style-decimal-sm {
     list-style-type: decimal; }
   .list-style-disc-sm {
@@ -597,7 +605,7 @@
   .list-style-none-sm {
     list-style-type: none; }
   /*Margin and padding
-  */
+   */
   .mb-0-sm {
     margin-bottom: 0; }
   .mb-0-5-sm {
@@ -911,7 +919,7 @@
   .pt-9-sm {
     padding-top: calc(var(--spacer) * 9); }
   /*Opacity
-  */
+   */
   .opacity-0-sm {
     opacity: 0; }
   .opacity-10-sm {
@@ -933,7 +941,7 @@
   .opacity-90-sm {
     opacity: 0.9; }
   /*Order
-  */
+   */
   .order-first-sm {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
@@ -959,7 +967,7 @@
         -ms-flex-order: 5;
             order: 5; }
   /*Overflow
-  */
+   */
   .overflow-x-auto-sm {
     overflow-x: auto; }
   .overflow-x-hidden-sm {
@@ -973,7 +981,7 @@
   .overflow-y-scroll-sm {
     overflow-y: scroll; }
   /*Position
-  */
+   */
   .position-absolute-sm {
     position: absolute; }
   .position-fixed-sm {
@@ -986,7 +994,7 @@
     position: -webkit-sticky;
     position: sticky; }
   /*Ratio
-  */
+   */
   .ratio-1x1-sm {
     padding-bottom: 100%; }
   .ratio-4x3-sm {
@@ -996,7 +1004,7 @@
   .ratio-21x9-sm {
     padding-bottom: calc(9 / 21 * 100%); }
   /*Stroke
-  */
+   */
   .stroke-black-sm {
     stroke: var(--black); }
   .stroke-grey-10-sm {
@@ -1039,10 +1047,12 @@
     stroke: var(--primary); }
   .stroke-secondary-sm {
     stroke: var(--secondary); }
+  .stroke-tertiary-sm {
+    stroke: var(--tertiary); }
   .stroke-white-sm {
     stroke: var(--white); }
   /*Text align
-  */
+   */
   .text-start-sm {
     text-align: left; }
   .text-end-sm {
@@ -1050,7 +1060,7 @@
   .text-center-sm {
     text-align: center; }
   /*Text transform
-  */
+   */
   .text-capitalize-sm {
     text-transform: capitalize; }
   .text-lowercase-sm {
@@ -1058,7 +1068,7 @@
   .text-uppercase-sm {
     text-transform: uppercase; }
   /*Text decoration
-  */
+   */
   .text-decoration-line-through-sm {
     text-decoration: line-through; }
   .text-decoration-none-sm {
@@ -1066,7 +1076,7 @@
   .text-decoration-underline-sm {
     text-decoration: underline; }
   /*Transform
-  */
+   */
   .transform-flip-x-sm {
     -webkit-transform: scaleX(-1);
         -ms-transform: scaleX(-1);
@@ -1088,7 +1098,7 @@
         -ms-transform: rotate(270deg);
             transform: rotateZ(270deg); }
   /*Transition
-  */
+   */
   .transition-fade-in-sm {
     opacity: 1;
     -webkit-transition: opacity var(--transition-duration);
@@ -1099,12 +1109,18 @@
     -webkit-transition: opacity var(--transition-duration);
     -o-transition: opacity var(--transition-duration);
     transition: opacity var(--transition-duration); }
+  /*Visibility
+   */
+  .invisible-sm {
+    visibility: hidden; }
+  .visible-sm {
+    visibility: visible; }
   /*White space
-  */
+   */
   .text-nowrap-sm {
     white-space: nowrap; }
   /*Width
-  */
+   */
   .mw-100-sm {
     max-width: 100%; }
   .vw-100-sm {
@@ -1165,8 +1181,14 @@
     width: 100%; }
   .w-auto-sm {
     width: auto; }
+  /*Writing mode
+   */
+  .text-vertical-rl-sm {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl; }
   /*Z-index
-  */
+   */
   .z-index-1-sm {
     z-index: 1; }
   .z-index-2-sm {
