@@ -216,19 +216,19 @@
   .bottom-4-sm {
     bottom: calc(var(--spacer) * 4); }
   .bottom-5-sm {
-    top: calc(var(--spacer) * 5); }
+    bottom: calc(var(--spacer) * 5); }
   .bottom-6-sm {
-    top: calc(var(--spacer) * 6); }
+    bottom: calc(var(--spacer) * 6); }
   .bottom-7-sm {
-    top: calc(var(--spacer) * 7); }
+    bottom: calc(var(--spacer) * 7); }
   .bottom-8-sm {
-    top: calc(var(--spacer) * 8); }
+    bottom: calc(var(--spacer) * 8); }
   .bottom-9-sm {
-    top: calc(var(--spacer) * 9); }
+    bottom: calc(var(--spacer) * 9); }
   .bottom-50-sm {
-    top: 50%; }
+    bottom: 50%; }
   .bottom-100-sm {
-    top: 100%; }
+    bottom: 100%; }
   .end-0-sm {
     right: 0; }
   .end-1-sm {

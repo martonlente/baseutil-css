@@ -304,25 +304,25 @@
   bottom: calc(var(--spacer) * 4); }
 
 .bottom-5 {
-  top: calc(var(--spacer) * 5); }
+  bottom: calc(var(--spacer) * 5); }
 
 .bottom-6 {
-  top: calc(var(--spacer) * 6); }
+  bottom: calc(var(--spacer) * 6); }
 
 .bottom-7 {
-  top: calc(var(--spacer) * 7); }
+  bottom: calc(var(--spacer) * 7); }
 
 .bottom-8 {
-  top: calc(var(--spacer) * 8); }
+  bottom: calc(var(--spacer) * 8); }
 
 .bottom-9 {
-  top: calc(var(--spacer) * 9); }
+  bottom: calc(var(--spacer) * 9); }
 
 .bottom-50 {
-  top: 50%; }
+  bottom: 50%; }
 
 .bottom-100 {
-  top: 100%; }
+  bottom: 100%; }
 
 .end-0 {
   right: 0; }
