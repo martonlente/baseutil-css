@@ -1028,6 +1028,16 @@
   justify-content: flex-start;
 }
 
+/*Letter spacing
+ */
+ .letter-spacing-lg {
+   letter-spacing: var(--letter-spacing-lg);
+ }
+
+.letter-spacing-sm {
+  letter-spacing: var(--letter-spacing-sm);
+}
+
 /*Line height
  */
 .lh-1 {
@@ -1696,6 +1706,16 @@
   padding-top: calc(var(--spacer) * 9);
 }
 
+/*Object fit
+ */
+.object-fit-contain {
+  object-fit: contain;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
 /*Opacity
  */
 .opacity-0 {
@@ -2164,4 +2184,8 @@
 
 .z-index-5 {
   z-index: 5;
+}
+
+.z-index-auto {
+  z-index: auto;
 }

@@ -580,6 +580,12 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start; }
+  /*Letter spacing
+   */
+  .letter-spacing-lg-xs {
+    letter-spacing: var(--letter-spacing-lg); }
+  .letter-spacing-sm-xs {
+    letter-spacing: var(--letter-spacing-sm); }
   /*Line height
    */
   .lh-1-xs {
@@ -918,6 +924,14 @@
     padding-top: calc(var(--spacer) * 8); }
   .pt-9-xs {
     padding-top: calc(var(--spacer) * 9); }
+  /*Object fit
+   */
+  .object-fit-contain-xs {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .object-fit-cover-xs {
+    -o-object-fit: cover;
+       object-fit: cover; }
   /*Opacity
    */
   .opacity-0-xs {
@@ -1198,4 +1212,6 @@
   .z-index-4-xs {
     z-index: 4; }
   .z-index-5-xs {
-    z-index: 5; } }
+    z-index: 5; }
+  .z-index-auto-xs {
+    z-index: auto; } }

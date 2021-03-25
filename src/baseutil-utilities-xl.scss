@@ -1029,6 +1029,16 @@
     justify-content: flex-start;
   }
 
+  /*Letter spacing
+   */
+   .letter-spacing-lg-xl {
+     letter-spacing: var(--letter-spacing-lg);
+   }
+
+  .letter-spacing-sm-xl {
+    letter-spacing: var(--letter-spacing-sm);
+  }
+
   /*Line height
    */
   .lh-1-xl {
@@ -1697,6 +1707,16 @@
     padding-top: calc(var(--spacer) * 9);
   }
 
+  /*Object fit
+   */
+  .object-fit-contain-xl {
+    object-fit: contain;
+  }
+
+  .object-fit-cover-xl {
+    object-fit: cover;
+  }
+
   /*Opacity
    */
   .opacity-0-xl {
@@ -2165,5 +2185,9 @@
 
   .z-index-5-xl {
     z-index: 5;
+  }
+
+  .z-index-auto-xl {
+    z-index: auto;
   }
 }

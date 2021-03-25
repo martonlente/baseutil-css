@@ -1029,6 +1029,16 @@
     justify-content: flex-start;
   }
 
+  /*Letter spacing
+   */
+   .letter-spacing-lg-lg {
+     letter-spacing: var(--letter-spacing-lg);
+   }
+
+  .letter-spacing-sm-lg {
+    letter-spacing: var(--letter-spacing-sm);
+  }
+
   /*Line height
    */
   .lh-1-lg {
@@ -1697,6 +1707,16 @@
     padding-top: calc(var(--spacer) * 9);
   }
 
+  /*Object fit
+   */
+  .object-fit-contain-lg {
+    object-fit: contain;
+  }
+
+  .object-fit-cover-lg {
+    object-fit: cover;
+  }
+
   /*Opacity
    */
   .opacity-0-lg {
@@ -2165,5 +2185,9 @@
 
   .z-index-5-lg {
     z-index: 5;
+  }
+
+  .z-index-auto-lg {
+    z-index: auto;
   }
 }
