@@ -838,13 +838,13 @@
   line-height: 1; }
 
 .lh-base {
-  line-height: var(--line-height-base); }
+  line-height: var(--lh-base); }
 
 .lh-lg {
-  line-height: var(--line-height-lg); }
+  line-height: var(--lh-lg); }
 
 .lh-sm {
-  line-height: var(--line-height-sm); }
+  line-height: var(--lh-sm); }
 
 /*List style position
  */

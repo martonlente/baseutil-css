@@ -591,11 +591,11 @@
   .lh-1-lg {
     line-height: 1; }
   .lh-base-lg {
-    line-height: var(--line-height-base); }
+    line-height: var(--lh-base); }
   .lh-lg-lg {
-    line-height: var(--line-height-lg); }
+    line-height: var(--lh-lg); }
   .lh-sm-lg {
-    line-height: var(--line-height-sm); }
+    line-height: var(--lh-sm); }
   /*List style position
    */
   .list-style-inside-lg {
