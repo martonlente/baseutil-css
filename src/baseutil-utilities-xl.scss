@@ -889,16 +889,16 @@
 
   /*Font weight
    */
+  .fw-bold-xl {
+    font-weight: var(--fw-bold);
+  }
+
   .fw-light-xl {
     font-weight: var(--fw-light);
   }
 
   .fw-normal-xl {
     font-weight: var(--fw-normal);
-  }
-
-  .fw-bold-xl {
-    font-weight: var(--fw-bold);
   }
 
   /*Height

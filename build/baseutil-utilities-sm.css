@@ -503,12 +503,12 @@
     font-size: var(--fs-7); }
   /*Font weight
    */
+  .fw-bold-sm {
+    font-weight: var(--fw-bold); }
   .fw-light-sm {
     font-weight: var(--fw-light); }
   .fw-normal-sm {
     font-weight: var(--fw-normal); }
-  .fw-bold-sm {
-    font-weight: var(--fw-bold); }
   /*Height
    */
   .h-0-5-sm {

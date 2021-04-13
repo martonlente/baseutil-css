@@ -713,14 +713,14 @@
 
 /*Font weight
  */
+.fw-bold {
+  font-weight: var(--fw-bold); }
+
 .fw-light {
   font-weight: var(--fw-light); }
 
 .fw-normal {
   font-weight: var(--fw-normal); }
-
-.fw-bold {
-  font-weight: var(--fw-bold); }
 
 /*Height
  */
