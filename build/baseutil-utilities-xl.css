@@ -429,6 +429,9 @@
   .filter-blur-xl {
     -webkit-filter: blur(var(--spacer));
             filter: blur(var(--spacer)); }
+  .filter-drop-shadow-xl {
+    -webkit-filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.15));
+            filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.15)); }
   .filter-grayscale-xl {
     -webkit-filter: grayscale(100%);
             filter: grayscale(100%); }

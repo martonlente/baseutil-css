@@ -793,6 +793,10 @@
     filter: blur(var(--spacer));
   }
 
+  .filter-drop-shadow-sm {
+    filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.15));
+  }
+
   .filter-grayscale-sm {
     filter: grayscale(100%);
   }

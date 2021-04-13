@@ -617,6 +617,10 @@
   -webkit-filter: blur(var(--spacer));
           filter: blur(var(--spacer)); }
 
+.filter-drop-shadow {
+  -webkit-filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.15)); }
+
 .filter-grayscale {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%); }
