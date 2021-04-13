@@ -639,6 +639,16 @@
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse; }
 
+.flex-grow-0 {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+
+.flex-grow-1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
 .flex-nowrap {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap; }
@@ -654,6 +664,14 @@
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse; }
+
+.flex-shrink-0 {
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
+
+.flex-shrink-1 {
+  -ms-flex-negative: 1;
+      flex-shrink: 1; }
 
 .flex-wrap {
   -ms-flex-wrap: wrap;

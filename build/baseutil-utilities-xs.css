@@ -447,6 +447,14 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse; }
+  .flex-grow-0-xs {
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0; }
+  .flex-grow-1-xs {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
   .flex-nowrap-xs {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap; }
@@ -460,6 +468,12 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; }
+  .flex-shrink-0-xs {
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
+  .flex-shrink-1-xs {
+    -ms-flex-negative: 1;
+        flex-shrink: 1; }
   .flex-wrap-xs {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
