@@ -105,6 +105,8 @@
    */
   .bg-no-repeat-xl {
     background-repeat: no-repeat; }
+  .bg-repeat-xl {
+    background-repeat: repeat; }
   .bg-repeat-x-xl {
     background-repeat: repeat-x; }
   .bg-repeat-y-xl {
