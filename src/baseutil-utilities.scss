@@ -793,7 +793,7 @@
 }
 
 .filter-drop-shadow {
-  filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 0 var(--spacer) rgba(0, 0, 0, 0.15));
 }
 
 .filter-grayscale {
