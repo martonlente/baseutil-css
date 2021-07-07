@@ -213,14 +213,20 @@
    */
   .bottom-0-xs {
     bottom: 0; }
+  .bottom-0-5-xs {
+    bottom: calc(var(--spacer) * 0.5); }
   .bottom-1-xs {
     bottom: var(--spacer); }
+  .bottom-1-5-xs {
+    bottom: calc(var(--spacer) * 1.5); }
   .bottom-2-xs {
     bottom: calc(var(--spacer) * 2); }
   .bottom-3-xs {
     bottom: calc(var(--spacer) * 3); }
   .bottom-4-xs {
     bottom: calc(var(--spacer) * 4); }
+  .bottom-4-5-xs {
+    bottom: calc(var(--spacer) * 4.5); }
   .bottom-5-xs {
     bottom: calc(var(--spacer) * 5); }
   .bottom-6-xs {
@@ -235,16 +241,24 @@
     bottom: 50%; }
   .bottom-100-xs {
     bottom: 100%; }
+  .bottom-auto-xs {
+    bottom: auto; }
   .end-0-xs {
     right: 0; }
+  .end-0-5-xs {
+    right: calc(var(--spacer) * 0.5); }
   .end-1-xs {
     right: var(--spacer); }
+  .end-1-5-xs {
+    right: calc(var(--spacer) * 1.5); }
   .end-2-xs {
     right: calc(var(--spacer) * 2); }
   .end-3-xs {
     right: calc(var(--spacer) * 3); }
   .end-4-xs {
     right: calc(var(--spacer) * 4); }
+  .end-4-5-xs {
+    right: calc(var(--spacer) * 4.5); }
   .end-5-xs {
     right: calc(var(--spacer) * 5); }
   .end-6-xs {
@@ -259,16 +273,24 @@
     right: 50%; }
   .end-100-xs {
     right: 100%; }
+  .end-auto-xs {
+    right: auto; }
   .start-0-xs {
     left: 0; }
+  .start-0-5-xs {
+    left: calc(var(--spacer) * 0.5); }
   .start-1-xs {
     left: var(--spacer); }
+  .start-1-5-xs {
+    left: calc(var(--spacer) * 1.5); }
   .start-2-xs {
     left: calc(var(--spacer) * 2); }
   .start-3-xs {
     left: calc(var(--spacer) * 3); }
   .start-4-xs {
     left: calc(var(--spacer) * 4); }
+  .start-4-5-xs {
+    left: calc(var(--spacer) * 4.5); }
   .start-5-xs {
     left: calc(var(--spacer) * 5); }
   .start-5-xs {
@@ -285,16 +307,24 @@
     left: 50%; }
   .start-100-xs {
     left: 100%; }
+  .start-auto-xs {
+    left: auto; }
   .top-0-xs {
     top: 0; }
+  .top-0-5-xs {
+    top: calc(var(--spacer) * 0.5); }
   .top-1-xs {
     top: var(--spacer); }
+  .top-1-5-xs {
+    top: calc(var(--spacer) * 1.5); }
   .top-2-xs {
     top: calc(var(--spacer) * 2); }
   .top-3-xs {
     top: calc(var(--spacer) * 3); }
   .top-4-xs {
     top: calc(var(--spacer) * 4); }
+  .top-4-5-xs {
+    top: calc(var(--spacer) * 4.5); }
   .top-5-xs {
     top: calc(var(--spacer) * 5); }
   .top-6-xs {
@@ -309,6 +339,8 @@
     top: 50%; }
   .top-100-xs {
     top: 100%; }
+  .top-auto-xs {
+    top: auto; }
   /*Box shadow
    */
   .shadow-xs {
