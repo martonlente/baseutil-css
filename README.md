@@ -17,4 +17,4 @@ Download Baseutil CSS, and add the stylesheet `<link>` to your `<head>` before o
 Pull requests are not yet welcome. For support requests, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://github.com/martonlente/baseutil-css/blob/main/LICENSE)
+[Apache 2.0](https://github.com/martonlente/baseutil-css/blob/main/LICENSE)
