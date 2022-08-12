@@ -44,6 +44,10 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
+.row .row {
+  margin-left: calc(var(--grid-gutter-width) * (-1));
+  width: calc(100% + var(--grid-gutter-width) * 2); }
+
 .col-1,
 .col-2,
 .col-3,
@@ -64,10 +68,10 @@ body {
   padding-right: var(--grid-gutter-width); }
 
 [class*='col-'] [class*='col-']:first-child {
-  padding-left: 0; }
+  padding-left: var(--grid-gutter-width); }
 
 [class*='col-'] [class*='col-']:last-child {
-  padding-right: 0; }
+  padding-right: var(--grid-gutter-width); }
 
 .col-1 {
   width: calc(100% / var(--grid-columns)); }
