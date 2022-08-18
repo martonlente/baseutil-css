@@ -495,8 +495,8 @@
 /*Box shadow
  */
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
+  -webkit-box-shadow: 0 0 var(--spacer) rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 var(--spacer) rgba(0, 0, 0, 0.15); }
 
 /*Colour
  */

@@ -638,7 +638,7 @@
   /*Box shadow
    */
   .shadow-xs {
-    box-shadow: 0 0.5rem 1.0rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 var(--spacer) rgba(0, 0, 0, 0.15);
   }
 
   /*Colour
