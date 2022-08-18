@@ -544,6 +544,40 @@
     font-weight: var(--fw-light); }
   .fw-normal-sm {
     font-weight: var(--fw-normal); }
+  /*Grid columns
+   */
+  .grid-columns-1-sm {
+    --grid-columns: 1; }
+  .grid-columns-2-sm {
+    --grid-columns: 2; }
+  .grid-columns-3-sm {
+    --grid-columns: 3; }
+  .grid-columns-4-sm {
+    --grid-columns: 4; }
+  .grid-columns-5-sm {
+    --grid-columns: 5; }
+  .grid-columns-6-sm {
+    --grid-columns: 6; }
+  .grid-columns-7-sm {
+    --grid-columns: 7; }
+  .grid-columns-8-sm {
+    --grid-columns: 8; }
+  .grid-columns-9-sm {
+    --grid-columns: 9; }
+  .grid-columns-10-sm {
+    --grid-columns: 10; }
+  .grid-columns-11-sm {
+    --grid-columns: 11; }
+  .grid-columns-12-sm {
+    --grid-columns: 12; }
+  .grid-columns-13-sm {
+    --grid-columns: 13; }
+  .grid-columns-14-sm {
+    --grid-columns: 14; }
+  .grid-columns-15-sm {
+    --grid-columns: 15; }
+  .grid-columns-16-sm {
+    --grid-columns: 16; }
   /*Height
    */
   .h-0-5-sm {

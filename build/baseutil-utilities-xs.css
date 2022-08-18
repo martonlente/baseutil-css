@@ -544,6 +544,40 @@
     font-weight: var(--fw-light); }
   .fw-normal-xs {
     font-weight: var(--fw-normal); }
+  /*Grid columns
+   */
+  .grid-columns-1-xs {
+    --grid-columns: 1; }
+  .grid-columns-2-xs {
+    --grid-columns: 2; }
+  .grid-columns-3-xs {
+    --grid-columns: 3; }
+  .grid-columns-4-xs {
+    --grid-columns: 4; }
+  .grid-columns-5-xs {
+    --grid-columns: 5; }
+  .grid-columns-6-xs {
+    --grid-columns: 6; }
+  .grid-columns-7-xs {
+    --grid-columns: 7; }
+  .grid-columns-8-xs {
+    --grid-columns: 8; }
+  .grid-columns-9-xs {
+    --grid-columns: 9; }
+  .grid-columns-10-xs {
+    --grid-columns: 10; }
+  .grid-columns-11-xs {
+    --grid-columns: 11; }
+  .grid-columns-12-xs {
+    --grid-columns: 12; }
+  .grid-columns-13-xs {
+    --grid-columns: 13; }
+  .grid-columns-14-xs {
+    --grid-columns: 14; }
+  .grid-columns-15-xs {
+    --grid-columns: 15; }
+  .grid-columns-16-xs {
+    --grid-columns: 16; }
   /*Height
    */
   .h-0-5-xs {

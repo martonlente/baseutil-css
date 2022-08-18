@@ -774,6 +774,56 @@
 .fw-normal {
   font-weight: var(--fw-normal); }
 
+/*Grid columns
+ */
+.grid-columns-1 {
+  --grid-columns: 1; }
+
+.grid-columns-2 {
+  --grid-columns: 2; }
+
+.grid-columns-3 {
+  --grid-columns: 3; }
+
+.grid-columns-4 {
+  --grid-columns: 4; }
+
+.grid-columns-5 {
+  --grid-columns: 5; }
+
+.grid-columns-6 {
+  --grid-columns: 6; }
+
+.grid-columns-7 {
+  --grid-columns: 7; }
+
+.grid-columns-8 {
+  --grid-columns: 8; }
+
+.grid-columns-9 {
+  --grid-columns: 9; }
+
+.grid-columns-10 {
+  --grid-columns: 10; }
+
+.grid-columns-11 {
+  --grid-columns: 11; }
+
+.grid-columns-12 {
+  --grid-columns: 12; }
+
+.grid-columns-13 {
+  --grid-columns: 13; }
+
+.grid-columns-14 {
+  --grid-columns: 14; }
+
+.grid-columns-15 {
+  --grid-columns: 15; }
+
+.grid-columns-16 {
+  --grid-columns: 16; }
+
 /*Height
  */
 .h-0-5 {
