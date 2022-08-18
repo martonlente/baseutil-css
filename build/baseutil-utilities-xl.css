@@ -580,6 +580,8 @@
     --grid-columns: 16; }
   /*Height
    */
+  .h-0-xl {
+    height: 0; }
   .h-0-5-xl {
     height: calc(var(--spacer) * 0.5); }
   .h-1-xl {
@@ -1224,6 +1226,8 @@
     max-width: 100%; }
   .vw-100-xl {
     width: 100vw; }
+  .w-0-xl {
+    width: 0; }
   .w-0-5-xl {
     width: calc(var(--spacer) * 0.5); }
   .w-1-xl {

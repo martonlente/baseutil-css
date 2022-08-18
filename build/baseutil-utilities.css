@@ -826,6 +826,9 @@
 
 /*Height
  */
+.h-0 {
+  height: 0; }
+
 .h-0-5 {
   height: calc(var(--spacer) * 0.5); }
 
@@ -1749,6 +1752,9 @@
 
 .vw-100 {
   width: 100vw; }
+
+.w-0 {
+  width: 0; }
 
 .w-0-5 {
   width: calc(var(--spacer) * 0.5); }
