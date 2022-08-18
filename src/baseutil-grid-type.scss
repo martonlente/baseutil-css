@@ -492,6 +492,13 @@ strong {
   font-weight: var(--fw-bold);
 }
 
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  cursor: pointer;
+}
+
 code,
 kbd,
 samp {
