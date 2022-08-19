@@ -6,6 +6,7 @@
 
 :root {
   --black: hsl(0, 0%, 0%);
+  --gradient: linear-gradient(180deg, var(--primary), var(--secondary));;
   --grey-10: hsl(0, 0%, 10%);
   --grey-20: hsl(0, 0%, 20%);
   --grey-30: hsl(0, 0%, 30%);
