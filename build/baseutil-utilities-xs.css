@@ -35,6 +35,8 @@
    */
   .bg-black-xs {
     background-color: var(--black); }
+  .bg-gradient-xs {
+    background-image: var(--gradient); }
   .bg-grey-10-xs {
     background-color: var(--grey-10); }
   .bg-grey-20-xs {

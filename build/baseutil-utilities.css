@@ -41,6 +41,9 @@
 .bg-black {
   background-color: var(--black); }
 
+.bg-gradient {
+  background-image: var(--gradient); }
+
 .bg-grey-10 {
   background-color: var(--grey-10); }
 

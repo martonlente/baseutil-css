@@ -35,6 +35,8 @@
    */
   .bg-black-xl {
     background-color: var(--black); }
+  .bg-gradient-xl {
+    background-image: var(--gradient); }
   .bg-grey-10-xl {
     background-color: var(--grey-10); }
   .bg-grey-20-xl {

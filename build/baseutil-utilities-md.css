@@ -35,6 +35,8 @@
    */
   .bg-black-md {
     background-color: var(--black); }
+  .bg-gradient-md {
+    background-image: var(--gradient); }
   .bg-grey-10-md {
     background-color: var(--grey-10); }
   .bg-grey-20-md {
