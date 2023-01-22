@@ -37,7 +37,7 @@
 :root {
   --container-max-width: 132.0rem;
   --grid-columns: 12;
-  --grid-gutter-width: 1.6rem;
+  --grid-gutter-width: calc(var(--spacer) * 2);
   --spacer: 0.8rem;
 }
 
