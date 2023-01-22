@@ -36,8 +36,8 @@
 :root {
   --container-max-width: 132.0rem;
   --grid-columns: 12;
-  --grid-gutter-width: 1.5rem;
-  --spacer: 1.0rem;
+  --grid-gutter-width: 1.6rem;
+  --spacer: 0.8rem;
 }
 
 @media (max-width: 1399px) {
