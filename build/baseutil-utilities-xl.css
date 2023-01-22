@@ -1992,6 +1992,26 @@
     -o-transition: opacity var(--transition-duration);
     transition: opacity var(--transition-duration);
   }
+  /*Vertical align
+   */
+  .align-baseline-xl {
+    vertical-align: baseline;
+  }
+  .align-bottom-xl {
+    vertical-align: bottom;
+  }
+  .align-middle-xl {
+    vertical-align: middle;
+  }
+  .align-text-bottom-xl {
+    vertical-align: text-bottom;
+  }
+  .align-text-top-xl {
+    vertical-align: text-top;
+  }
+  .align-top-xl {
+    vertical-align: top;
+  }
   /*Visibility
    */
   .invisible-xl {

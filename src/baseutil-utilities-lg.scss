@@ -2389,6 +2389,32 @@
     transition: opacity var(--transition-duration);
   }
 
+  /*Vertical align
+   */
+  .align-baseline-lg {
+    vertical-align: baseline;
+  }
+
+  .align-bottom-lg {
+    vertical-align: bottom;
+  }
+
+  .align-middle-lg {
+    vertical-align: middle;
+  }  
+
+  .align-text-bottom-lg {
+    vertical-align: text-bottom;
+  }
+
+  .align-text-top-lg {
+    vertical-align: text-top;
+  }
+
+  .align-top-lg {
+    vertical-align: top;
+  }    
+
   /*Visibility
    */
   .invisible-lg {
