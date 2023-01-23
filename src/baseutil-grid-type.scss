@@ -208,10 +208,6 @@ body {
 }
 
 @media (max-width: 1264px) {
-  [class*='col-'] {
-    width: 100%;
-  }
-
   .col-1-md {
     width: calc(100% / var(--grid-columns));
   }
@@ -278,6 +274,10 @@ body {
 }
 
 @media (max-width: 960px) {
+  [class*='col-'] {
+    width: 100%;
+  }
+
   .col-1-sm {
     width: calc(100% / var(--grid-columns));
   }
