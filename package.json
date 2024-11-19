@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "npm-run-all css-compile css-prefix",
     "css-compile": "sass --no-source-map src:build",
     "css-prefix": "postcss build/*.css --use autoprefixer --no-map -d build/"
   },
