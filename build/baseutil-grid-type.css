@@ -5,8 +5,7 @@
  * Licensed under Apache 2.0 (https://github.com/martonlente/baseutil-css/blob/main/LICENSE)
  */
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -45,11 +44,8 @@ body {
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .row .row {
@@ -356,8 +352,6 @@ body {
  */
 a {
   color: var(--secondary);
-  -webkit-transition: opacity var(--transition-duration);
-  -o-transition: opacity var(--transition-duration);
   transition: opacity var(--transition-duration);
 }
 
