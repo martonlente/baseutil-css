@@ -1,0 +1,11 @@
+{
+  "name": "baseutil-css",
+  "version": "1.0.0",
+  "description": "Baseutil CSS is a modern, fully flexible, and utility-centric  desktop-first framework, designed to help you in streamlined custom web development. It's built on the idea to have a modest set of variable-based base styles for grid and type, and a rich set of also variable-based single-responsibility utilities. :triangular_ruler:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
